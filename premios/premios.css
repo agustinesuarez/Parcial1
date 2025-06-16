@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.premio{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+.contexto{
+    color: red;
+    font-size: 200%;
+}
+footer{
+    color: white;
+    font-size: 150%;
+}
+.curiosidades{
+color: red;
+text-align: center;
+font-size: 400%;
+
+}
+.curio{
+    color: white;
+    font-size: 150%;
+}

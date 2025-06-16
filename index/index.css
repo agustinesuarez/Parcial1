@@ -1,0 +1,48 @@
+
+body{
+background-color: black;
+}
+h1{
+    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1%;
+    font-size: x-large;
+color: whitesmoke;
+margin: 2%;
+}
+
+div{
+width:95% ;
+height:200px ;
+margin: 1% ;
+
+}
+.logoc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jedi{
+    color : white;
+  height: 1%;
+}
+.enlace{
+    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:94% ;
+    height:100px ;
+    text-align: center; 
+    margin: 1%;
+    font-size:200%;
+
+}
+h2{
+    color: white;
+    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 150%;
+margin: 2%;
+}
+h3{
+    color: white;
+    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 100%;
+margin: 2%;
+}

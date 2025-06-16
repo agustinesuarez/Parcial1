@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+header{
+    text-align: right;
+}
+.consultas{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+footer{
+    color: white;
+    font-size: 150%;
+}
+
+
+.img{
+    
+text-align: left;
+}

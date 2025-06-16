@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+
+}
+.episodio{
+    font-family: sans-serif;
+    color: white;
+    font-size: x-large;
+    margin:  1%; ;
+padding: 2%;
+
+}
+.director{
+    font-family: sans-serif;
+    color: white;
+    font-size: x-large;
+    margin: 1%;
+    padding: 1%;
+}
+footer{
+    color: white;
+    font-size: 150%;
+}
+.produc{
+text-align: center;
+    color: white;
+    font-size: 400%;
+}

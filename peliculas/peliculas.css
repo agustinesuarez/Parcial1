@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+.peli{
+    color: white;
+    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+    margin: 1%;
+}
+.episodio{
+    font-family: sans-serif;
+    color: white;
+    font-size: x-large;
+    padding: 1%;
+    margin: 0%;
+    
+}
+footer{
+    color: white;
+    font-size: 150%;
+}
+.trilogia{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 1%;
+    margin: 1%;
+}
+.logoc{
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
