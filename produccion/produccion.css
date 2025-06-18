@@ -2,6 +2,38 @@ body{
     background-color: black;
 
 }
+#cerrar{
+    display: none;
+}
+#panel{
+ left: -1000px;
+ transition: left .7s ease;
+ position: fixed;
+ top: 10vh;
+}
+#panel:target{
+left : 0;
+}
+#panel:target ~  #cerrar {
+    display:inline-block;
+}
+
+#panel:target ~ #abrir{
+    display: none;
+}
+
+.hm{
+   
+   font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+    font-size: 2rem;
+    color: red;
+   text-decoration: none;
+      display: flex;
+    flex-direction: column;
+    
+}
 .episodio{
     font-family: sans-serif;
     color: white;

@@ -1,21 +1,61 @@
 body{
     background-color: black;
-    color: white;
+    
 }
 header{
     color:white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 600%;
-    margin: 2%;
-    padding: 5%;
-}
-.rep{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
-    margin: 0%;
+    margin: 1%;
     padding: 1%;
+}
+#cerrar{
+    display: none;
+}
+#panel{
+ left: -1000px;
+ transition: left .7s ease;
+ position: fixed;
+ top: 10vh;
+}
+#panel:target{
+left : 0;
+}
+#panel:target ~  #cerrar {
+    display:inline-block;
+}
+
+#panel:target ~ #abrir{
+    display: none;
+}
+
+.hm{
+   
+   font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+    font-size: 3rem;
+    color: red;
+   text-decoration: none;
+      display: flex;
+    flex-direction: column;
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        img{
+width: 50%;
+        }
+    
+}
+h1,h3{
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+    color: white;
 }
 h2{
     color: red;
@@ -25,10 +65,34 @@ margin: 0;
 padding: 1%;
 }
 h3{
-  padding: 1%;
-  margin: 0%;  
+    padding-top: 0;
 }
 footer{
+    background:-webkit-linear-gradient(white,black);
+    padding: 5px;
+margin: 0;
+
+height: 150px;
+width: 100%;
+text-align: center;
+}
+.logos{
+    img{
+    
+         padding-left: 7%;
+        width: 50px;
+        height: 60px;
+        padding-top: 3%;
+        
+    }
+}
+#ft{
+    text-decoration: none;
     color: white;
-    font-size: 150%;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1rem;
+   
+}
+#ult{
+    padding-bottom: 2%;
 }

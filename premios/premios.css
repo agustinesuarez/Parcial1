@@ -1,18 +1,56 @@
 body{
     background-color: black;
 }
-.premio{
+#cerrar{
+    display: none;
+}
+#panel{
+ left: -1000px;
+ transition: left .7s ease;
+ position: fixed;
+ top: 10vh;
+}
+#panel:target{
+left : 0;
+}
+#panel:target ~  #cerrar {
+    display:inline-block;
+}
+
+#panel:target ~ #abrir{
+    display: none;
+}
+
+.hm{
+   
+   font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+    font-size: 2rem;
+    color: red;
+   text-decoration: none;
+      display: flex;
+    flex-direction: column;
+    
+}
+.video{
+    background-image: url(../imagenes/imagenfondopremio.jpg);
+    background-size: cover;
+    background-position: center;
+   aspect-ratio: 1/1;
+    margin: 3%;
+    padding: 5%;
+    padding-left: 16%;
+    width: 1000px;
+    height: 500px;
+}
+.premios{
     text-align: center;
 }
-h1{
+h1,h2,h3{
     color: white;
 }
-h2{
-    color: white;
-}
-h3{
-    color: white;
-}
+
 .contexto{
     color: red;
     font-size: 200%;
@@ -22,12 +60,51 @@ footer{
     font-size: 150%;
 }
 .curiosidades{
+    background-image:url(../imagenes/curiosidad.webp);
+    background-position: center;
+    background-size: cover;
+    margin: 1%;
+  padding-bottom: 20%;
 color: red;
-text-align: center;
 font-size: 400%;
-
+text-align: center;
 }
-.curio{
+#curio{
+    padding-top: 8%;
+    text-align: left;
     color: white;
-    font-size: 150%;
+    font-size: 27%;
+}
+.oscar{
+   display: flex;
+    height: 300px;
+    justify-content: center;
+    gap: 100px;
+   
+}
+footer{
+    background:-webkit-linear-gradient(white,black);
+    padding: 5px;
+margin: 0;
+height: 150px;
+width: 100%;
+text-align: center;
+}
+.logos{
+    img{
+    
+         padding-left: 7%;
+        width: 50px;
+        height: 60px;
+        padding-top: 3%;
+        
+    }
+    
+}
+#ft{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1rem;
+   
 }
