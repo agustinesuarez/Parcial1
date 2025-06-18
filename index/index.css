@@ -1,48 +1,131 @@
 
 body{
 background-color: black;
+padding: 0;
+margin: 0;
 }
-h1{
+.princ{
+    height: 300px;
+    width: 400px;
+padding-left: 35%;
+}
+.princ img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#entrada{
+    padding-top: 1%;
+    margin: 2%;
+}
+.jedi{
+    background-image: url(../imagenes/jedi.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 13%;
+    padding-top: 15%;
+    background-size: cover;
+    background-position: center;
+}
+.sith{
+    background-image: url(../imagenes/vader.jpg);
+    margin: 1%;
+   width: 100;
+   background-size: cover;
+background-position: right;
+
+}
+h1,h2,h3{
     font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1%;
     font-size: x-large;
 color: whitesmoke;
-margin: 2%;
 }
-
-div{
-width:95% ;
-height:200px ;
-margin: 1% ;
-
-}
-.logoc{
+.panel{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.jedi{
-    color : white;
-  height: 1%;
-}
-.enlace{
-    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width:94% ;
-    height:100px ;
-    text-align: center; 
-    margin: 1%;
-    font-size:200%;
-
-}
-h2{
-    color: white;
-    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h2{ 
 font-size: 150%;
 margin: 2%;
+padding-top: 7%;
 }
 h3{
-    color: white;
-    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 100%;
 margin: 2%;
+padding: 0;
+}
+#cerrar{
+    display: none;
+}
+#panel{
+ left: -1000px;
+ transition: left .7s ease;
+ position: fixed;
+ top: 10vh;
+}
+#panel:target{
+left : 0;
+}
+#panel:target ~  #cerrar {
+    display:inline-block;
+}
+
+#panel:target ~ #abrir{
+    display: none;
+}
+
+.hm{
+   
+   font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+    font-size: 3rem;
+    color: red;
+   text-decoration: none;
+      display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+footer{
+background-color: rgba(138, 6, 6, 0.667);
+padding: 5px;
+margin: 0;
+height: 150px;
+width: 100%;
+text-align: center;
+
+}
+.logos{
+    img{
+         padding-left: 7%;
+        width: 40px;
+        height: 50px;
+        padding-top: 3%;
+        
+    }
+}
+#ft{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1rem;
+   
+}
+.video{
+    aspect-ratio: 1/1;
+    margin: 0;
+    padding-top: 19%;
+    padding-left: 52%;
+    width: 50%;
+    height: 200px;
+}
+#sth{
+    padding-top: 5%;
+    
 }
