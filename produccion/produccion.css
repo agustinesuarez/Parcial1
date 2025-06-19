@@ -34,6 +34,17 @@ left : 0;
     flex-direction: column;
     
 }
+.primera{
+    padding: 0;
+    margin: 0;
+  background-image: url(../imagenes/logpremio.jpg);
+}
+h1{
+     font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white ;
+}
 .episodio{
     font-family: sans-serif;
     color: white;
@@ -57,4 +68,35 @@ footer{
 text-align: center;
     color: white;
     font-size: 400%;
+}
+footer{
+    background:-webkit-linear-gradient(white,black);
+    padding: 5px;
+margin: 0;
+height: 150px;
+width: 100%;
+text-align: center;
+}
+.logos{
+    img{
+    
+         padding-left: 7%;
+        width: 50px;
+        height: 60px;
+        padding-top: 3%;
+        
+    }
+    
+}
+#ft{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1rem;
+   
+}
+.video{
+    margin: 0;
+    padding-left: 23%;
+    width: 50%;
 }
