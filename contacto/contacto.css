@@ -1,21 +1,69 @@
 body{
     background-color: black;
 }
-header{
-    text-align: right;
+#cerrar{
+    display: none;
 }
-.consultas{
-    color: white;
-    text-align: center;
-    font-size: 300%;
+#panel{
+ left: -1000px;
+ transition: left .7s ease;
+ position: fixed;
+ top: 10vh;
+}
+#panel:target{
+left : 0;
+}
+#panel:target ~  #cerrar {
+    display:inline-block;
+}
+
+#panel:target ~ #abrir{
+    display: none;
+}
+
+.hm{
+   
+   font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+    font-size: 2rem;
+    color: red;
+   text-decoration: none;
+      display: flex;
+    flex-direction: column;
+    
 }
 footer{
-    color: white;
-    font-size: 150%;
+    background:-webkit-linear-gradient(white,black);
+    padding: 5px;
+margin: 0;
+height: 150px;
+width: 100%;
+text-align: center;
 }
-
-
-.img{
+.logos{
+     display: flex;
+     gap: 150px;
+    img{
     
-text-align: left;
+         padding-left: 7%;
+        width: 50px;
+        height: 70px;
+        padding-top: 3%;
+        
+    }
+    
+}
+#ft{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1rem;
+   
+}
+.fin{
+    display: inline-block;
+    text-align: center;
+    align-items:center;
+    
 }

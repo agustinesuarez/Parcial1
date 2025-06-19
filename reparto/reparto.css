@@ -77,6 +77,8 @@ width: 100%;
 text-align: center;
 }
 .logos{
+      display: flex;
+     gap: 150px;
     img{
     
          padding-left: 7%;
@@ -95,4 +97,10 @@ text-align: center;
 }
 #ult{
     padding-bottom: 2%;
+}
+.fin{
+    display: inline-block;
+    text-align: center;
+    align-items:center;
+    
 }

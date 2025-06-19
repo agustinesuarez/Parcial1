@@ -55,10 +55,7 @@ h1,h2,h3{
     color: red;
     font-size: 200%;
 }
-footer{
-    color: white;
-    font-size: 150%;
-}
+
 .curiosidades{
     background-image:url(../imagenes/curiosidad.webp);
     background-position: center;
@@ -91,6 +88,8 @@ width: 100%;
 text-align: center;
 }
 .logos{
+    display: flex;
+     gap: 150px;
     img{
     
          padding-left: 7%;
@@ -107,4 +106,10 @@ text-align: center;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 1rem;
    
+}
+.fin{
+    display: inline-block;
+    text-align: center;
+    align-items:center;
+    
 }

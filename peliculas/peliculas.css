@@ -104,6 +104,8 @@ background-size: cover;
 padding-bottom: 30%;
 }
 .logos{
+     display: flex;
+     gap: 150px;
     img{
     
          padding-left: 7%;
@@ -128,9 +130,9 @@ height: 150px;
 width: 100%;
 text-align: center;
 }
-a{
+.fin{
+    display: inline-block;
     text-align: center;
-  
-  
-   
+    align-items:center;
+    
 }

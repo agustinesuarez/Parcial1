@@ -99,6 +99,8 @@ width: 100%;
 text-align: center;
 }
 .logos{
+    display: flex;
+     gap: 150px;
     img{
     
          padding-left: 7%;
@@ -125,5 +127,11 @@ text-align: center;
 }
 #sth{
     padding-top: 5%;
+    
+}
+.fin{
+    display: inline-block;
+    text-align: center;
+    align-items:center;
     
 }
