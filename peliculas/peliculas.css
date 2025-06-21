@@ -64,7 +64,8 @@ left : 0;
     
 }
 .primeratri{
-    background-image: url(../imagenes/2tri.webp);
+    overflow: hidden;
+    background-image: url(../imagenes/vadertri1.jpg);
     margin: 1%;
     padding-top: 7%;
     padding-bottom: 50%;
@@ -72,6 +73,7 @@ left : 0;
     background-size:cover;
     width: 100%;
     height: 100px;
+    max-width: 100%;
 }
 #lista{
     color: red;
@@ -81,13 +83,16 @@ left : 0;
 }
 h1,h2{
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Khnum B', sans-serif;
+    font-size: 35px;
 }
 a{
     color:white;
     text-decoration: none;
 }
 .segundatri{
+    max-width: 100%;
+    overflow: hidden;
     background-image: url(../imagenes/1tri.jpg);
       margin: 1%;
     padding-bottom: 50%;
@@ -97,7 +102,9 @@ a{
     height: 100px;
 }
 .tercertri{
-background-image: url(../imagenes/tercertri.jpeg);
+    overflow: hidden;
+    max-width: 100%;
+background-image: url(../imagenes/starwars.jpg);
 margin: 1%;
 background-position: center;
 background-size: cover;
