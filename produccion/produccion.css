@@ -3,9 +3,12 @@ body{
 
 }
 #cerrar{
+    position: fixed;
     display: none;
+    padding-left: 1%;
 }
 #panel{
+    padding-top: 2%;
  left: -1000px;
  transition: left .7s ease;
  position: fixed;
@@ -21,9 +24,13 @@ left : 0;
 #panel:target ~ #abrir{
     display: none;
 }
-
+#abrir{
+    padding-top: 0%;
+    position: fixed;
+    padding-left: 1%;
+}
 .hm{
-   
+    text-shadow: 5px 6px 10px white  ;
    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     text-align: left;
@@ -35,6 +42,7 @@ left : 0;
     
 }
 .primera{
+    
     padding: 0;
     margin: 0;
   background-image: url(../imagenes/logpremio.jpg);
@@ -47,6 +55,7 @@ h2{
      font-family: 'Khnum B', sans-serif;
 }
 #pro{
+ padding-top: 4%;
      font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
     text-align: center;
