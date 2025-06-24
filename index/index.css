@@ -43,6 +43,8 @@ h1,h2,h3{
 color: whitesmoke;
 }
 .panel{
+
+    padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,31 +60,48 @@ margin: 2%;
 padding: 0;
 }
 #cerrar{
+    
+    padding-left: 1%;
     display: none;
+    position: fixed;
+}
+#abrir {
+    padding-left: 1%;
+    position: fixed;
 }
 #panel{
+    margin: 0;
+padding: 0%;
  left: -1000px;
  transition: left .7s ease;
  position: fixed;
  top: 10vh;
 }
 #panel:target{
+    position: fixed;
+    margin: 0;
+    padding: 3%;
 left : 0;
+
 }
 #panel:target ~  #cerrar {
+    margin: 0;
+    padding: 1%;
     display:inline-block;
 }
 
 #panel:target ~ #abrir{
+    margin: 0;
+    padding: 3%;
     display: none;
 }
 
 .hm{
-   
+    text-shadow: 5px 6px 10px white  ;
    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2rem;
     color: red;
    text-decoration: none;
       display: flex;

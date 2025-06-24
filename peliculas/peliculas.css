@@ -33,7 +33,9 @@ footer{
     text-align: center;
 }
 #cerrar{
+    padding-left: 1%;
     display: none;
+    position: fixed;
 }
 #panel{
  left: -1000px;
@@ -50,9 +52,14 @@ left : 0;
 
 #panel:target ~ #abrir{
     display: none;
+
+}
+#abrir{
+    position: fixed;
+    padding-left: 1%;
 }
 .hm{
-   
+    text-shadow: 5px 6px 10px white  ;
    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     text-align: left;
@@ -78,11 +85,12 @@ left : 0;
 #lista{
     color: red;
     margin: 1%;
-    padding-top: 5%;
+    padding-top: 8%;
       font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1,h2{
-    color: white;
+     text-shadow: 20px 20px 10px  ;
+    color: white ;
     font-family: 'Khnum B', sans-serif;
     font-size: 35px;
 }

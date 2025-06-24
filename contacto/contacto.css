@@ -2,9 +2,16 @@ body{
     background-color: black;
 }
 #cerrar{
+    padding-left: 1%;
+    position: fixed;
     display: none;
 }
+#abrir{
+    padding-left: 1%;
+    position: fixed;
+}
 #panel{
+padding-left: 2%;
  left: -1000px;
  transition: left .7s ease;
  position: fixed;
@@ -12,17 +19,20 @@ body{
 }
 #panel:target{
 left : 0;
+position: fixed;
 }
 #panel:target ~  #cerrar {
     display:inline-block;
+    position: fixed;
 }
 
 #panel:target ~ #abrir{
     display: none;
+    position: fixed;
 }
 
 .hm{
-   
+   text-shadow: 5px 6px 10px white  ;
    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     text-align: left;
