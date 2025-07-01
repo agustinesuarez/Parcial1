@@ -76,10 +76,8 @@ padding: 2%;
     margin: 1%;
     padding: 1%;
 }
-footer{
-    color: white;
-    font-size: 150%;
-}
+
+
 .produc{
 text-align: center;
     color: white;
@@ -90,8 +88,9 @@ footer{
     padding: 5px;
 margin: 0;
 height: 150px;
-width: 100%;
 text-align: center;
+  color: white;
+    font-size: 150%;
 }
 .logos{
      display: flex;
