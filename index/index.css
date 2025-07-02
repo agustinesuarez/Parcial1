@@ -5,9 +5,9 @@ padding: 0;
 margin: 0;
 }
 .princ{
-    height: 300px;
-    width: 400px;
-padding-left: 35%;
+    height: 25%;
+    width: 30%;
+padding-left: 33%;
 }
 .princ img{
     max-width: 100%;
@@ -31,7 +31,6 @@ padding-left: 35%;
 .sith{
     background-image: url(../imagenes/vader.jpg);
     margin: 1%;
-   width: 100;
    background-size: cover;
 background-position: right;
 
@@ -113,18 +112,18 @@ footer{
     background:-webkit-linear-gradient(white,black);
     padding: 5px;
 margin: 0;
-height: 150px;
+height: 10rem;
 
 text-align: center;
 }
 .logos{
     display: flex;
-     gap: 150px;
+     gap: 10%;
     img{
     
          padding-left: 7%;
-        width: 50px;
-        height: 60px;
+        width: 60%;
+        height: 75%;
         padding-top: 3%;
         
     }
@@ -142,7 +141,7 @@ text-align: center;
     padding-top: 19%;
     padding-left: 52%;
     width: 50%;
-    height: 200px;
+    height: 16rem;
 }
 #sth{
     padding-top: 5%;
