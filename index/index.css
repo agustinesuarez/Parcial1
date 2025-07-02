@@ -156,5 +156,9 @@ text-align: center;
 @media (500 < width < 1024) {
     body{
         background-color: white;
+        font-size: 16px;
+    }
+    footer{
+        width: 50%;
     }
 }
