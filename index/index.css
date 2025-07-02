@@ -153,7 +153,7 @@ text-align: center;
     align-items:center;
     
 }
-@media (500 < width < 1024) {
+@media (300 < width < 1024) {
     body{
         background-color: white;
         font-size: 1px;
