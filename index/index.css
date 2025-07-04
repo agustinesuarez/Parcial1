@@ -192,4 +192,16 @@ margin: 0;
 height: 10rem;
 text-align: center;
 }
+.logos{
+    display: flex;
+     gap: 5%;
+    img{
+    
+         padding-left: 4%;
+        width: 20%;
+        height: 30%;
+        padding-top: 3%;
+        
+    }
+}
 }
