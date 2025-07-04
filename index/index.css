@@ -153,8 +153,8 @@ text-align: center;
     align-items:center;
     
 }
-
-@media (max-width: 768px){
+@media (max-width: 768px)
+{
    body{
      
         font-size: 1px;
