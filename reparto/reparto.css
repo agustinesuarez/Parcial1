@@ -52,6 +52,7 @@ left : 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2%;
         img{
 width: 50%;
         }
@@ -115,6 +116,9 @@ text-align: center;
      margin: 1%;
     padding: 1%;
     padding-top: 65%;
+    }
+    .img{
+        padding-top: 2%;
     }
     footer{
     background:-webkit-linear-gradient(white,black);
