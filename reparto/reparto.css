@@ -107,6 +107,9 @@ text-align: center;
     
 }
 @media (max-width: 768px) {
+    header{
+        font-size: 300%;
+    }
     footer{
     background:-webkit-linear-gradient(white,black);
     padding: 0.1rem;
