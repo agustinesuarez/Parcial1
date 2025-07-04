@@ -108,8 +108,10 @@ text-align: center;
     
 }
 @media (max-width: 768px) {
-   
-    #reparto{
+    body{
+        font-size: 1px ;
+    }
+    .reparto{
         font-size: 300%;
          color:white;
     font-family: 'Times New Roman', Times, serif;
