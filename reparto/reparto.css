@@ -107,7 +107,8 @@ text-align: center;
     align-items:center;
     
 }
-@media (500px < width < 1024px) {
+@media (min-width:500px) and(max-width: 1024px) {
+    
     body{
         font-size: 1px ;
     }
