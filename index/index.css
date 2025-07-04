@@ -38,7 +38,6 @@ background-position: right;
 }
 h1,h2,h3{
     font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 1%;
     font-size: x-large;
 color: whitesmoke;
 }
@@ -153,7 +152,7 @@ text-align: center;
     align-items:center;
     
 }
-    @media (max-width: 768px) {
+    @media(max-width: 600px) {
    body{
      
         font-size: 1px;
@@ -162,9 +161,8 @@ text-align: center;
 
     h1,h2,h3{
     font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 0.2%;
-    font-size: 1rem;
-color: whitesmoke;
+    font-size: 0.5rem;
+    color: whitesmoke;
 }
   
     .princ{
@@ -197,8 +195,8 @@ text-align: center;
      gap: 8%;
     img{
          padding-left: 10%;
-        width: 40%;
-        height: 100%;
+        width: 20%;
+        height: 50%;
         padding-top: 2%;
         
     }
