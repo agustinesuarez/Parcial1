@@ -109,7 +109,7 @@ text-align: center;
     align-items:center;
     
 }
-@media (500 < width < 1024) {
+@media (max-width: 768px) {
     footer{
     background:-webkit-linear-gradient(white,black);
     padding: 0.2rem;
