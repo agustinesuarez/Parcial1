@@ -162,7 +162,7 @@ text-align: center;
 
     h1,h2,h3{
     font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 0.5%;
+    font-weight: 0.2%;
     font-size: x-large;
 color: whitesmoke;
 }
@@ -175,5 +175,6 @@ padding-left: 33%;
 #entrada{
     padding-top: 50%;
     margin: 2%;
+    font-size: 1rem;
 }
 }
