@@ -108,9 +108,7 @@ text-align: center;
     
 }
 @media (max-width: 768px) {
-    body{
-        font-size: 1px ;
-    }
+   
     #reparto{
         font-size: 300%;
          color:white;
