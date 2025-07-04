@@ -136,10 +136,10 @@ text-align: center;
      gap: 8%;
  
     img{
-         padding-left: 10%;
-        width: 50%;
+        padding-left: 10%;
+        width: 40%;
         height: 100%;
-       
+        padding-top: 2%;
         
     }
 }
