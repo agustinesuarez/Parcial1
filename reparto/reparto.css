@@ -107,7 +107,7 @@ text-align: center;
     align-items:center;
     
 }
-@media (min-width:400px)  {
+@media (max-width:760px)  {
     
     body{
         font-size: 1px ;

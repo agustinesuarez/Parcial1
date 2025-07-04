@@ -155,7 +155,7 @@ text-align: center;
 }
 
 
-@media  (min-width: 400px)  {
+@media  (max-width: 760px)  {
     
 
     body{
