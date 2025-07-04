@@ -152,51 +152,26 @@ text-align: center;
     align-items:center;
     
 }
-    @media(max-width: 600px) {
-   body{
-     
-        font-size: 1px;
-        
-    }
 
-    h1,h2,h3{
-    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.5rem;
-    color: whitesmoke;
-}
-  
-    .princ{
-    height: 25%;
-    width: 30%;
-padding-left: 33%;
-}
-#entrada{
-    padding-top: 50%;
-    margin: 2%;
-    font-size: 1rem;
-}
-.video{
-    aspect-ratio: 1/1;
-    margin: 0;
-    padding-top: 19%;
-    padding-left: 40%;
-    width: 60%;
-    height: 7rem;
-}
-footer{
+@media (max-width: 760px) {
+    body{
+      font-size: 1px;  
+    }
+    footer{
     background:-webkit-linear-gradient(white,black);
     padding: 0.2rem;
 margin: 0;
-height: 3rem;
+height: 2rem;
 text-align: center;
 }
 .logos{
     display: flex;
-     gap: 8%;
+     gap: 7%;
     img{
-         padding-left: 4%;
-        width: 20%;
-        height: 50%;
+    
+         padding-left: 3%;
+        width: 30%;
+        height: 42%;
         padding-top: 1%;
         
     }
