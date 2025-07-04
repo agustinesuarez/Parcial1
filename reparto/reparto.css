@@ -70,9 +70,7 @@ font-size: 200%;
 margin: 0;
 padding: 1%;
 }
-h3{
-    padding-top: 0;
-}
+
 footer{
     background:-webkit-linear-gradient(white,black);
     padding: 5px;
@@ -113,6 +111,7 @@ text-align: center;
     footer{
     background:-webkit-linear-gradient(white,black);
     padding: 0.2rem;
+    padding-top: 1rem;
 margin: 0;
 height: 4rem;
 text-align: center;
