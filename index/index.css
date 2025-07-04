@@ -194,7 +194,7 @@ text-align: center;
 }
 .logos{
     display: flex;
-     gap: 9%;
+     gap: 8%;
     img{
     
          padding-left: 4%;
@@ -208,7 +208,7 @@ text-align: center;
     text-decoration: none;
     color: black;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 0.5rem;
+    font-size: 0.2rem;
    
 }
 }
