@@ -160,6 +160,9 @@ text-align: center;
         font-size: 1px;
         
     }
-   
+   footer{
+    height: auto;
+    padding: 1rem;
+   }
     
 }
