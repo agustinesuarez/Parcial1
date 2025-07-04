@@ -194,7 +194,7 @@ text-align: center;
 }
 .logos{
     display: flex;
-     gap: 5%;
+     gap: 10%;
     img{
     
          padding-left: 4%;
