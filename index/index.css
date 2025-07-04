@@ -160,9 +160,20 @@ text-align: center;
         font-size: 1px;
         
     }
+
+    h1,h2,h3{
+    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 0.5%;
+    font-size: x-large;
+color: whitesmoke;
+}
    footer{
     height: auto;
     padding: 1rem;
    }
-    
+    .princ{
+    height: 25%;
+    width: 30%;
+padding-left: 33%;
+}
 }
