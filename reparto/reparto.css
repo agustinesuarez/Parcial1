@@ -117,6 +117,7 @@ text-align: center;
 .logos{
     display: flex;
      gap: 8%;
+     padding-top: 0;
     img{
          padding-left: 10%;
         width: 40%;
@@ -129,7 +130,7 @@ text-align: center;
     text-decoration: none;
     color: black;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 0.4rem;
+    font-size: 0.7rem;
    
 }
     
