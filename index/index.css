@@ -153,10 +153,7 @@ text-align: center;
     align-items:center;
     
 }
-
 @media (max-width: 768px) {
-    
-
     body{
      
         font-size: 1px;
@@ -185,7 +182,7 @@ padding-left: 33%;
     margin: 0;
     padding-top: 19%;
     padding-left: 40%;
-    width: 61%;
+    width: 60%;
     height: 7rem;
 }
 footer{
@@ -213,4 +210,4 @@ text-align: center;
     font-size: 0.4rem;
    
 }
-} 
+}
