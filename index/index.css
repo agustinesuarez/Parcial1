@@ -160,10 +160,6 @@ text-align: center;
         font-size: 1px;
         
     }
-    footer{
-        box-sizing: border-box;
-        display: flex;
-        flex: 1 1 100%;
-      margin: 0;
-    }
+   
+    
 }
