@@ -114,7 +114,6 @@ footer{
     padding: 5px;
 margin: 0;
 height: 10rem;
-
 text-align: center;
 }
 .logos{
@@ -169,7 +168,8 @@ color: whitesmoke;
 }
    footer{
     height: auto;
-    padding: 1rem;
+    padding: 0;
+    height: 0;
    }
     .princ{
     height: 25%;
@@ -177,7 +177,7 @@ color: whitesmoke;
 padding-left: 33%;
 }
 #entrada{
-    padding-top: 40%;
+    padding-top: 50%;
     margin: 2%;
 }
 }
