@@ -154,37 +154,37 @@ text-align: center;
        font-size: 0.063rem; 
     }
     #entrada{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     h1{
         font-size: 2rem;
     }
-footer{
+    footer{
     background:-webkit-linear-gradient(white,black);
-    padding: 0.5rem;
+    padding: 0.2rem;
 margin: 0;
-height: 10rem;
+height: 3rem;
 text-align: center;
 }
+
 .logos{
     display: flex;
-     gap: 7%;
-    }
-   
-     .logos img{
-    
-         padding-left: 4%;
-        width: 30%;
-        height: 40%;
-        padding-top: 1%;
+     gap: 8%;
+ }
+   .logos img{
+        padding-left: 10%;
+        width: 40%;
+        height: 100%;
+        padding-top: 2%;
         
     }
 
 #ft{
     text-decoration: none;
-    color: black;
+    color:black;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+    
    
 }
 

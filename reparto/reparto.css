@@ -82,7 +82,8 @@ text-align: center;
 .logos{
     display: flex;
      gap: 10%;
-    img{
+    }
+   .logos img{
     
          padding-left: 7%;
         width: 60%;
@@ -90,7 +91,7 @@ text-align: center;
         padding-top: 3%;
         
     }
-}
+
 #ft{
     text-decoration: none;
     color: black;
@@ -136,15 +137,15 @@ text-align: center;
 .logos{
     display: flex;
      gap: 8%;
- 
-    img{
+ }
+   .logos img{
         padding-left: 10%;
         width: 40%;
         height: 100%;
         padding-top: 2%;
         
     }
-}
+
 #ft{
     text-decoration: none;
     color:black;
