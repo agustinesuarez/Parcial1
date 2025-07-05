@@ -159,6 +159,9 @@ text-align: center;
     h1{
         font-size: 2rem;
     }
+    h2,h3{
+        font-size: 2rem;
+    }
     footer{
     background:-webkit-linear-gradient(white,black);
     padding: 0.2rem;
