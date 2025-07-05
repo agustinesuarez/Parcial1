@@ -155,7 +155,7 @@ text-align: center;
 
 @media (max-width: 760px) {
     body{
-      font-size: 1px;  
+      font-size: 0.2rem;  
     }
     footer{
     background:-webkit-linear-gradient(white,black);
