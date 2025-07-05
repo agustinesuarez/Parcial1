@@ -120,16 +120,16 @@ padding-bottom: 30%;
 }
 .logos{
      display: flex;
-     gap: 150px;
-    img{
-    
+     gap: 10%;
+    }
+    .logos img{
+
          padding-left: 7%;
         width: 50px;
         height: 60px;
         padding-top: 3%;
         
     }
-}
 #ft{
     text-decoration:none;
     color: black;
@@ -184,9 +184,13 @@ text-align: center;
    
 }
 #lista{
-    font-size: 1rem;
+    font-size: 0.3rem;
 }
 h1,h2{
     font-size: 1rem;
 }
+}
+.primeratri,.segundatri,.tercertri{
+box-sizing: border-box;
+
 }
