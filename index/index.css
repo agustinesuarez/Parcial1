@@ -149,8 +149,9 @@ text-align: center;
     text-align: center;
     align-items:center;    
 }
-@media  (max-width: 768px) {
+@media  (300px < width < 768px) {
     body{
+        
        font-size: 0.063rem; 
     }
     #entrada{
@@ -161,7 +162,7 @@ text-align: center;
         font-size: 2rem;
     }
     h2,h3{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     footer{
     background:-webkit-linear-gradient(white,black);
@@ -191,7 +192,14 @@ text-align: center;
     
    
 }
-
+.video{
+    aspect-ratio: 16/9;
+    margin: 0;
+    padding-top: 19%;
+    padding-left: 32%;
+    width: 50%;
+    height: 8rem;
+}
 
 }
 
