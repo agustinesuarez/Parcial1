@@ -110,7 +110,7 @@ text-align: center;
 @media (max-width: 768px)  {
     
     body{
-        font-size: 1px ;
+        font-size: 0.062rem ;
     }
     #reparto{
         font-size: 400%;

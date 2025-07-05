@@ -152,9 +152,9 @@ text-align: center;
     
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     body{
-      font-size: 0.2rem;  
+      font-size: 0.062rem;  
     }
     footer{
     background:-webkit-linear-gradient(white,black);
@@ -167,13 +167,12 @@ text-align: center;
     display: flex;
      gap: 7%;
      }
-  .logos img{
+.logos img{
          padding-left: 3%;
         width: 30%;
         height: 42%;
         padding-top: 1%;
-        
-    }
+        }
 #ft{
     text-decoration: none;
     color: black;
