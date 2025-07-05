@@ -159,5 +159,35 @@ text-align: center;
     h1{
         font-size: 2rem;
     }
+footer{
+    background:-webkit-linear-gradient(white,black);
+    padding: 0.5rem;
+margin: 0;
+height: 10rem;
+text-align: center;
+}
+.logos{
+    display: flex;
+     gap: 7%;
+    }
+   
+     .logos img{
+    
+         padding-left: 4%;
+        width: 30%;
+        height: 40%;
+        padding-top: 1%;
+        
+    }
+
+#ft{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 0.5rem;
+   
+}
+
+
 }
 
