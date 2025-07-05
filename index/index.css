@@ -117,8 +117,8 @@ text-align: center;
 }
 .logos{
     display: flex;
-     gap: 10%;
-    img{
+     gap: 10%;}
+   .logos img{
     
          padding-left: 7%;
         width: 60%;
@@ -126,7 +126,7 @@ text-align: center;
         padding-top: 3%;
         
     }
-}
+
 #ft{
     text-decoration: none;
     color: black;
@@ -167,7 +167,8 @@ text-align: center;
 .logos{
     display: flex;
      gap: 7%;
-    img{
+     }
+  .logos img{
          padding-left: 3%;
         width: 30%;
         height: 42%;
@@ -183,4 +184,3 @@ text-align: center;
    
 }
 
-}
