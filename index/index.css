@@ -152,16 +152,16 @@ text-align: center;
     
 }
 
-@media (max-width: 760px) {
+@media(max-width: 768px) {
     body{
       font-size: 0.2rem;  
     }
     footer{
     background:-webkit-linear-gradient(white,black);
     padding: 0.2rem;
-margin: 0;
-height: 2rem;
-text-align: center;
+    margin: 0;
+    height: 2rem;
+    text-align: center;
 }
 .logos{
     display: flex;
@@ -179,7 +179,6 @@ text-align: center;
     color: black;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 0.4rem;
-   
 }
 }
 
