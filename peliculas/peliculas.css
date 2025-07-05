@@ -189,11 +189,12 @@ text-align: center;
 }
 h1,h2{
     font-size: 0.5rem;
+    text-shadow: 20px 20px 10px  ;
 }
 .hm{
     font-size: 0.7rem;
 }
 .primeratri{
-    padding-top: 20%;
+    padding-top: 40%;
 }
 }
