@@ -154,6 +154,7 @@ text-align: center;
 @media  (300px < width < 768px) {
    body{
         font-size: 0.062rem ;
+    background-color: black;
     }
     footer{
     background:-webkit-linear-gradient(white,black);
@@ -191,5 +192,8 @@ h1,h2{
 }
 .hm{
     font-size: 0.7rem;
+}
+.primeratri{
+    padding-top: 20%;
 }
 }
