@@ -121,9 +121,6 @@ border-radius: 100px;
   padding-top: 9rem;   
   color: white;
   
-  
-
-  
 }
 
 #nombre,#contra,#telefono,#correo{
@@ -138,9 +135,14 @@ border-radius: 100px;
 }
 label{
     margin-left: 20%;
-    color: black;
+    color: white;
+    font-size: 1.2rem;
     font-weight: bold;
-    text-shadow: 0 0 40px black;
+    text-shadow: 0 0 5px black,
+        0 0 10px black,
+        0 0 20px  black,
+        0 0 40px black,
+        0 0 80px black;
 }
 
 #enviar{
@@ -201,10 +203,56 @@ text-align: center;
 }
 
 .formu2{
-    height: 70rem;
-  padding: 1rem;
-  padding-top: 13rem;
+  padding-left: 20%;  
+ 
+}
+label{
+    margin-left: 10%;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-shadow: 0 0 5px black,
+        0 0 10px black,
+        0 0 20px  black,
+        0 0 40px black,
+        0 0 80px black;
+}
+#nombre,#contra,#telefono,#correo{
+    margin-top: 2%;
+    padding: 0;
+    color: white;
+    font-size: 0.5rem;
+    border: 2px solid white;
+    box-shadow: 0 0 20px;
 
+}
+ #term{
+    position: absolute;
+  top: 26.5rem;
+ }   
+ #terminos{
+    margin-top: 5%;
+ }
+}
+#msj{
+    border-style:groove;
+    border-radius: 0.2;
+    margin: 0%;
+    padding: 0%;
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 30px;
+}
+#ms{
+    display: inline-block;
+    width: 1rem;
+    font-size: 0.7rem;
+    vertical-align:middle;
+    text-align: center;
+ padding-bottom: 15%;
+ padding-right: 15% ;
 }
 .hm{
 font-size: 1rem;
@@ -212,11 +260,12 @@ font-size: 1rem;
 #enviar{
     font-family: 'Khnum B', sans-serif;
     color: red;
-    font-size: 2rem;
+    font-size: 0.5rem;
     background-color: black;
     width: 3rem;
     height: 1.5rem;
     text-align: center;
+    padding-bottom: 6%;
     
 }
 input{
@@ -229,4 +278,3 @@ border-radius: 8rem;
 
 }
 
-}
