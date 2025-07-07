@@ -154,14 +154,14 @@ text-align: center;
  background-image: url(../imagenes/imagenfondopremio.jpg);
   background-size: cover;
     background-position: center;
+       padding-top: 50%;
 }
     .video{
    aspect-ratio: 1/1;
-   padding-top: 80%;
     margin: 1%;
     padding-left: 30%;
-    width: 10rem;
-    height: 7rem;
+    width: 15rem;
+    height: 20rem;
     
 }
 .oscar{
