@@ -114,6 +114,7 @@ text-align: center;
    
 }
 .video{
+    aspect-ratio: 1/1;
     margin: 0;
     padding-left: 23%;
     width: 50%;
@@ -159,13 +160,22 @@ text-align: center;
    
 }
 .primera{
+    padding-top: 10%;
     background-color: black;
     background-image: none;
 }
 #pro{
     font-size: 1rem;
 }
-
-
+.video{
+    aspect-ratio: 1/1;
+    margin: 0;
+    padding-left: 10%;
+    width: 40%;
+    height: 20%;
+}
 
 }
+
+
+
