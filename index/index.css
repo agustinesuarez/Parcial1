@@ -108,22 +108,24 @@ left : 0;
 
 footer{
     background:-webkit-linear-gradient(white,black);
-    padding: 0.5rem;
+    padding: 5px;
 margin: 0;
-height: 10rem;
+height: 150px;
 text-align: center;
 }
 .logos{
-    display: flex;
-     gap: 10%;}
-   .logos img{
+     display: flex;
+     gap: 9rem;
+}
+.logos img{
     
          padding-left: 7%;
-        width: 60%;
-        height: 75%;
+        width: 50px;
+        height: 70px;
         padding-top: 3%;
         
     }
+    
 
 #ft{
     text-decoration: none;

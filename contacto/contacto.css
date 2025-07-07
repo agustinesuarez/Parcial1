@@ -66,7 +66,7 @@ text-align: center;
 
 #ft{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 1rem;
    
@@ -82,10 +82,11 @@ audio{
     padding: 0%;
     width: 100%;
     padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 input{
-    
+   margin-left: 20%;
     height: 20px;
    display: flex;
    flex-direction: column;
@@ -98,31 +99,73 @@ border-radius: 100px;
     border-radius: 10px;
     margin: 0%;
     padding: 1%;
-    width: 300px;
-    height: 100px;
-    
+    width: 19rem;
+    height: 6.25rem;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 30px;
 }
 #ms{
     display: inline-block;
     width: 100px;
     vertical-align:middle;
- 
+    text-align: center;
+ padding-bottom: 7%;
 }
 
 
 .formu2{
-    background-image:url(..imagenes./contacto.jpg);
-  width: 50%;
-  padding: 0;
-  padding-top: 3rem;
+    background-image:url(../imagenes/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 9rem;   
+  color: white;
+  
+  
+
+  
 }
+
+#nombre,#contra,#telefono,#correo{
+    margin-top: 1%;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+    box-shadow: 0 0 20px;
+
+    
+}
+label{
+    margin-left: 20%;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 40px black;
+}
+
 #enviar{
     font-family: 'Khnum B', sans-serif;
     color: red;
     font-size: 30px;
     background-color: black;
-    width: 100px;
-    height: 50px;
+    width: 7rem;
+    height: 4rem;
+    text-align: center;
+    margin-left: 50%;
+    border: 2px solid;
+    box-shadow: 0 0 30px;
+    animation: pulse-glow 2s infinite;
+
+}
+@keyframes pulse-glow{
+    0%,100%{
+        box-shadow: 0 0 5px red;
+       
+    }
+    50%{
+        box-shadow: 0 0 25px red, 0 0 35px red;
+
+    }
 }
 
 @media  (300px < width < 768px) {
@@ -158,7 +201,7 @@ text-align: center;
 }
 
 .formu2{
-    heigth: 70rem;
+    height: 70rem;
   padding: 1rem;
   padding-top: 13rem;
 
@@ -186,3 +229,4 @@ border-radius: 8rem;
 
 }
 
+}
