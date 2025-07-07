@@ -146,3 +146,37 @@ padding-right: 70%;
     width: 100px;
     height: 50px;
 }
+
+@media  (300px < width < 768px) {
+   body{
+        font-size: 0.062rem ;
+    background-color: black;
+    }
+    footer{
+    background:-webkit-linear-gradient(white,black);
+    padding: 0.2rem;
+margin: 0;
+height: 3rem;
+text-align: center;
+}
+
+.logos{
+    display: flex;
+     gap: 8%;
+ }
+   .logos img{
+        padding-left: 10%;
+        width: 40%;
+        height: 100%;
+        padding-top: 2%;
+        
+    }
+
+#ft{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 0.4rem;
+    
+   
+}
