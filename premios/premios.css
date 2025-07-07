@@ -39,10 +39,12 @@ left : 0;
     flex-direction: column;
     
 }
-.video{
-    background-image: url(../imagenes/imagenfondopremio.jpg);
-    background-size: cover;
+.videos{
+ background-image: url(../imagenes/imagenfondopremio.jpg);
+  background-size: cover;
     background-position: center;
+}
+.video{
    aspect-ratio: 1/1;
     margin: 3%;
     padding: 5%;
@@ -148,10 +150,12 @@ text-align: center;
     font-family: sans-serif,'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 0.4rem;
     }
-    .video{
-    background-image: url(../imagenes/imagenfondopremio.jpg);
-    background-size: cover;
+    .videos{
+ background-image: url(../imagenes/imagenfondopremio.jpg);
+  background-size: cover;
     background-position: center;
+}
+    .video{
    aspect-ratio: 1/1;
    padding-top: 80%;
     margin: 1%;
