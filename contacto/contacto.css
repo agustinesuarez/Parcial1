@@ -182,8 +182,8 @@ text-align: center;
 }
 .formu1 img{
         display: block;
-        width: 10rem;
-height: 35rem;
+        width: 7rem;
+height: 25rem;
     }
 .formu2{
     display: inline-block;
@@ -194,5 +194,5 @@ height: 35rem;
 .formu{
     display: flex;
  justify-content: space-between;
- padding: 0.5rem;
+ 
 }
