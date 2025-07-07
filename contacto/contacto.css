@@ -185,9 +185,14 @@ text-align: center;
         width: 10rem;
 height: 35rem;
     }
-    .formu2{
+.formu2{
     display: inline-block;
-  width: 5rem;
+  width: 1rem;
   padding: 1rem;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
+}
+.formu{
+    display: flex;
+ justify-content: space-between;
+ padding: 0.5rem;
 }
