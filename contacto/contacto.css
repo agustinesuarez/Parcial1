@@ -180,3 +180,9 @@ text-align: center;
     
    
 }
+ img{
+        display: block;
+        width: 30rem;
+height: 15rem;
+padding-right: 35%;
+    }
