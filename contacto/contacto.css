@@ -155,7 +155,7 @@ label{
     border: 2px solid;
     box-shadow: 0 0 30px;
     animation: pulse-glow 2s infinite;
-
+    margin-top: -3%;
 }
 @keyframes pulse-glow{
     0%,100%{
