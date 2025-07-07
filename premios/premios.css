@@ -118,7 +118,7 @@ text-align: center;
     align-items:center;
     
 }
-@media (max-width: 768px) {
+@media (300px < width < 768px) {
     body{
         font-size: 1px;
     }
@@ -133,15 +133,15 @@ text-align: center;
 .logos{
     display: flex;
      gap: 8%;
- 
-    img{
+ }
+ .logos img{
         padding-left: 10%;
         width: 40%;
         height: 100%;
         padding-top: 2%;
         
     }
-}
+
 #ft{
     text-decoration: none;
     color:black;
