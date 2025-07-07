@@ -2,40 +2,41 @@ body{
     background-image: url(../imagenes/error.jpg);
     background-size: cover;
 }
-a{
-    display: flex;
-text-align: center;
-align-items: center;
-text-decoration: none;
-color: white;
-font-size: 30px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-img{
+
+h1{
+    text-shadow: 5px 6px 10px red  ;
+    color: white;
+    margin: 2%;
+    padding: 2%;
+    padding-top: 3.5%;
+}
+
+a img{
     background-color: white;
     color: white;
     display: inline-block;
     height: 6rem;
     filter: invert(1);
 }
-}
-h1{
-    text-shadow: 5px 6px 10px red  ;
-    color: white;
-    margin: 2%;
-    padding: 2%;
-}
-@media(max-width: 768px){
-    h1{
-        text-shadow: 2px 3px 5px red  ;
-    color: white;
-    margin: 1%;
-    padding: 1%;
-}
+#segundotexto{
+            padding-top: 16%;
+        }
+@media  (300px < width < 768px){
+    body{
+        background-color: black;
+            background-image: url(../imagenes/error.jpg);
+    background-size: contain;
+        background-position: center;
+        }
+        h1{
+            padding-top: 40%;
+            font-size: 1rem;
+        }
+       a img{
+            height: 3rem;
+
+        }
+        #segundotexto{
+            padding-top: 90%;
+        }
     }
-img{
-    background-color: white;
-    color: white;
-    display: inline-block;
-    height: 3rem;
-    filter: invert(1);
-}
