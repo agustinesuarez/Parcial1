@@ -158,7 +158,13 @@ text-align: center;
     
    
 }
-
+.primera{
+    background-color: black;
+    background-image: none;
+}
+#pro{
+    font-size: 1rem;
+}
 
 
 
