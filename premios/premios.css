@@ -155,16 +155,33 @@ text-align: center;
    aspect-ratio: 1/1;
     margin: 1%;
     padding: 2%;
+    padding-left: 10%;
     width: 10rem;
     height: 7rem;
     text-align: center;
 }
 .oscar{
    display: flex;
-    height: 5rem;
+    height: 3rem;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
    
+}
+.curiosidades{
+    background-image:url(../imagenes/curiosidad.webp);
+    background-position: center;
+    background-size: cover;
+    margin: 1%;
+  padding-bottom: 20%;
+color: red;
+font-size: 200%;
+text-align: center;
+}
+#curio{
+    padding-top: 4%;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
 }
 
 }
