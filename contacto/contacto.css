@@ -158,7 +158,8 @@ text-align: center;
 }
 
 .formu2{
-    heigth: 20rem;
+    heigth: auto;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
+
 }
