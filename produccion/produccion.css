@@ -160,25 +160,25 @@ text-align: center;
    
 }
 .primera{
-    padding-top: 40%;
+    padding-top: 60%;
     background-color: black;
     background-image: none;
 }
 #pro{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .video{
     aspect-ratio: 1/1;
     margin: 0;
-    padding-left: 15%;
+    padding-left: 25%;
     width: 40%;
-    height: 20%;
+    height: 40%;
 }
 #episodio{
-font-size: 1rem;
+font-size: 2rem;
 }
 #director{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 }
 
