@@ -229,13 +229,7 @@ label{
     box-shadow: 0 0 20px;
 
 }
- #term{
-    position: absolute;
-  top: 26.5rem;
- }   
- #terminos{
-    margin-top: 5%;
- }
+
 
 #mensaje{
     border-style:groove;
