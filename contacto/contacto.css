@@ -45,9 +45,9 @@ position: fixed;
 }
 footer{
     background:-webkit-linear-gradient(white,black);
-    padding: 5px;
+    padding: 0.5rem;
 margin: 0;
-height: 150px;
+height: 10rem;
 text-align: center;
 }
 .logos{
@@ -79,53 +79,53 @@ text-align: center;
 }
 audio{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     width: 100%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-top: 10%;
 }
 
 input{
    margin-left: 20%;
-    height: 20px;
+    height: 11rem;
    display: flex;
    flex-direction: column;
 border-style: groove;
-border-radius: 100px;
+border-radius: 5rem;
 
 }
 #msj{
-    border-style:groove;
-    border-radius: 10px;
+    border-style: groove;
+    border-radius: 0.2rem;
     margin: 0%;
-    padding: 1%;
-    width: 19rem;
-    height: 6.25rem;
+    margin-bottom: 15%;
+    padding: 0%;
+    width: 15rem;
+    height: 23rem;
     color: white;
     border: 2px solid white;
     box-shadow: 0 0 30px;
 }
-#ms{
+/*#ms{
     display: inline-block;
-    width: 100px;
+    width: 100%;
     vertical-align:middle;
     text-align: center;
- padding-bottom: 7%;
-}
 
+}*/
 
 .formu2{
     background-image:url(../imagenes/contacto.jpg);
   background-size: cover;
   background-position: center;
-  padding-top: 7rem;   
+  padding-top: 2rem;   
+  margin: 0;
   color: white;
   
 }
 
 #nombre,#contra,#telefono,#correo{
     margin-top: 1%;
-    padding: 1rem;
+    padding: 0.2rem;
     color: white;
     font-size: 1rem;
     border: 2px solid white;
@@ -136,7 +136,7 @@ border-radius: 100px;
 label{
     margin-left: 20%;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-shadow: 0 0 5px black,
         0 0 10px black,
@@ -148,10 +148,11 @@ label{
 #enviar{
     font-family: 'Khnum B', sans-serif;
     color: red;
-    font-size: 30px;
+    font-size: 2rem;
     background-color: black;
-    width: 7rem;
+    width: 3rem;
     height: 4rem;
+    margin-top:  10%;
     text-align: center;
     margin-left: 50%;
     border: 2px solid;
