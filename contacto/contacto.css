@@ -31,12 +31,12 @@ position: fixed;
     position: fixed;
 }
 
-.hm{
+.hn{
    text-shadow: 5px 6px 10px white  ;
    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2rem;
     color: red;
    text-decoration: none;
       display: flex;
@@ -86,32 +86,13 @@ audio{
 
 input{
    margin-left: 20%;
-    height: 11rem;
+    height: 1.25rem;
    display: flex;
    flex-direction: column;
 border-style: groove;
 border-radius: 5rem;
 
 }
-#msj{
-    border-style: groove;
-    border-radius: 0.2rem;
-    margin: 0%;
-    margin-bottom: 15%;
-    padding: 0%;
-    width: 15rem;
-    height: 23rem;
-    color: white;
-    border: 2px solid white;
-    box-shadow: 0 0 30px;
-}
-/*#ms{
-    display: inline-block;
-    width: 100%;
-    vertical-align:middle;
-    text-align: center;
-
-}*/
 
 .formu2{
     background-image:url(../imagenes/contacto.jpg);
@@ -126,7 +107,7 @@ border-radius: 5rem;
 #nombre,#contra,#telefono,#correo{
     margin-top: 1%;
     padding: 0.2rem;
-    color: white;
+    color: black;
     font-size: 1rem;
     border: 2px solid white;
     box-shadow: 0 0 20px;
@@ -145,20 +126,41 @@ label{
         0 0 80px black;
 }
 
-#enviar{
+#mensaje{ 
+border-style: groove;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1rem;   
+    border: 2px solid white;
+    box-shadow: 0 0 30px;
+    color: black;
+    margin-left: -9%;
+}
+#comentario{
+    display: inline-block;
+    width: 1rem;
+    font-size: 0.8rem;
+    vertical-align:middle;
+    text-align: center;
+ padding-bottom: 8%;
+ padding-right: 15% ;
+}
+#envia{
     font-family: 'Khnum B', sans-serif;
     color: red;
     font-size: 2rem;
     background-color: black;
-    width: 3rem;
-    height: 4rem;
-    margin-top:  10%;
-    text-align: center;
+    width: 8rem;
+    height: 0.1rem;
+    padding-top: 1%;
+    padding-bottom: 3.5%;
     margin-left: 50%;
     border: 2px solid;
     box-shadow: 0 0 30px;
     animation: pulse-glow 2s infinite;
-    margin-top: -3%;
+    text-align: center;
 }
 @keyframes pulse-glow{
     0%,100%{
@@ -234,10 +236,10 @@ label{
  #terminos{
     margin-top: 5%;
  }
-}
-#msj{
+
+#mensaje{
     border-style:groove;
-    border-radius: 0.2;
+    border-radius: 0.2rem;
     margin: 0%;
     padding: 0%;
     width: 7rem;
@@ -246,7 +248,7 @@ label{
     border: 2px solid white;
     box-shadow: 0 0 30px;
 }
-#ms{
+#comentario{
     display: inline-block;
     width: 1rem;
     font-size: 0.7rem;
@@ -255,10 +257,10 @@ label{
  padding-bottom: 15%;
  padding-right: 15% ;
 }
-.hm{
+.hn{
 font-size: 1rem;
 }
-#enviar{
+#envia{
     font-family: 'Khnum B', sans-serif;
     color: red;
     font-size: 0.5rem;
@@ -279,3 +281,4 @@ border-radius: 8rem;
 
 }
 
+}
