@@ -36,7 +36,7 @@ position: fixed;
    font-family: 'Star Wars', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     text-align: left;
-    font-size: 2rem;
+    font-size: 3rem;
     color: red;
    text-decoration: none;
       display: flex;
@@ -118,7 +118,7 @@ border-radius: 100px;
     background-image:url(../imagenes/contacto.jpg);
   background-size: cover;
   background-position: center;
-  padding-top: 9rem;   
+  padding-top: 7rem;   
   color: white;
   
 }
